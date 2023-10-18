@@ -8,10 +8,9 @@ export const Navbar: FunctionComponent = () => {
         <>
             <nav>
                 <li><Link to='/'>Home</Link></li>
-                <li><Link to='/List'>Home</Link></li>
-                <li><Link to='/List/Details'>Home</Link></li>
-                <li><Link to='/Portfolio'>Home</Link></li>
-                <li><Link to='/Connection'>Home</Link></li>
+                <li><Link to='/List'>List</Link></li>
+                <li><Link to='/Portfolio'>Portfolio</Link></li>
+                <li><Link to='/Connection'>Connect</Link></li>
             </nav>
         </>
     )
